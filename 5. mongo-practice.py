@@ -2,7 +2,7 @@ import pymongo
 from bson.objectid import ObjectId #載入ObjectId物件
 
 #連線到 MongoDB 雲端資料庫
-client = pymongo.MongoClient("mongodb+srv://root:Asd12345@cluster0.qbrnymz.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("<url>")
 db = client.mywebsite #選擇操作 mywebsite 資料庫
 collection = db.users #選擇操作 users 集合
 
