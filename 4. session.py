@@ -4,7 +4,7 @@ from flask import render_template #載入render_template函式
 from flask import session
 
 app = Flask(__name__, static_folder= "public", static_url_path= "/www") 
-app.secret_key = "any string but secret" #設定session的密鑰(必須動作)
+app.secret_key = "<key>" #設定session的密鑰(必須動作)
 
 @app.route("/")
 def index():
