@@ -1,6 +1,6 @@
 #初始化資料庫連線
 import pymongo
-client= pymongo.MongoClient("mongodb+srv://root:Asd12345@cluster0.qbrnymz.mongodb.net/?retryWrites=true&w=majority")
+client= pymongo.MongoClient("<url>")
 db= client.member_system
 print ("資料庫連線建立成功")
 
