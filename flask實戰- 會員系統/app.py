@@ -14,7 +14,7 @@ app = Flask (
     static_url_path= "/"
 )
 
-app.secret_key= "any string but secret"
+app.secret_key= "<key>"
 
 #處理路由
 @app.route("/")
